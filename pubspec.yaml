@@ -1,0 +1,126 @@
+name: workflow_manager
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.38+38
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^4.0.1+2
+  provider: ^4.0.0
+  http: ^0.12.2
+  dio_cookie_manager: ^1.0.0
+  cookie_jar: ^1.0.0
+  pull_to_refresh: ^1.6.3
+  shared_preferences: ^0.5.12+2
+  fluttertoast: ^8.0.8
+  dio: ^3.0.10
+  path_provider: ^1.6.24
+  flutter_rating_bar: ^3.2.0+1
+  file_picker: ^2.1.7
+  percent_indicator: ^2.1.8
+  flutter_tags: ^0.4.9+1
+  intl: ^0.16.1
+  open_file: ^3.2.0
+  android_intent: ^0.3.7+7
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1
+  url_launcher: ^6.0.3
+  #  cached_network_image: ^2.4.1
+  flutter_html: ^1.2.0
+  #  diacritic: ^0.1.1
+  #  flutter_summernote: ^0.2.3
+  #  flutter_datetime_picker: ^1.4.0
+  flutter_datetime_picker:
+    git:
+      url: https://github.com/espresso3389/flutter_datetime_picker
+  event_bus: ^1.1.1
+  visibility_detector: ^0.2.0
+  # Chart
+  #  fl_chart: ^0.12.1
+  #  bezier_chart: ^1.0.17+1
+  #  modern_charts: ^0.1.19
+  #  ext_storage: ^1.0.3
+  #  charts_flutter: ^0.9.0
+  permission_handler: ^5.1.0+2
+  #  onesignal_flutter: 2.6.2
+  #  socket_io_client: ^0.9.12
+  html: ^0.14.0+4
+  # grid
+  flutter_layout_grid: ^0.10.2
+  package_info: ^0.4.3+2
+  #  firebase_database: ^6.0.0
+  #  cloud_firestore: ^0.16.0+1
+#  firebase_crashlytics: "^0.4.0+1"
+#  firebase_core: "^0.7.0"
+  flutter_svg: ^0.19.3
+  #  native_pdf_renderer: ^2.4.0
+  synchronized: ^2.2.0+2
+  math_expressions: ^2.0.2
+  flutter_tableview: ^1.0.1
+
+  # open app store and google play
+  store_redirect: ^2.0.0
+  keyboard_actions: ^3.3.1+1
+
+  # login faceid
+  local_auth: ^0.6.3
+
+  # page indicator
+  smooth_page_indicator: ^0.2.0
+  smart_select: ^4.0.0
+
+  # camera
+  camera:
+  path: ^1.7.0
+
+  # device info
+  device_info: ^1.0.0
+  #  wifi_info_plugin: ^1.1.5
+
+  #rx
+  #  rxdart: ^0.24.1
+
+  flutter_slidable: ^0.5.7
+  flutter_app_badger: ^1.2.0
+#  flutter_spinkit: ^5.1.0
+  localstorage: ^3.0.6
+  after_layout: ^1.1.0
+  google_fonts: ^1.1.2
+  enum_to_string: ^1.0.14
+  flutter_typeahead: ^2.0.0
+
+  #expandable tab
+#  expandable: ^5.0.1
+  dropdown_search: ^2.0.1
+  dotted_border: ^1.0.7
+  flutter_multiselect: ^1.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/icons/
+    - google_fonts/
